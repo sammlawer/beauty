@@ -7,36 +7,44 @@
 	none;
 	text-decoration:
 	none;
-	
-	color:#000000;
+	color: #000;
 	z-index:0;
 }
-body{background:url(topbanner.jpg) no-repeat top center #fff;padding-top: 419px;background-size: 1400px auto;}
-.bottom{background:url(bottombg.jpg) no-repeat bottom center #fff;width:100%;background-size: 100% auto;height: 102px;}
-.instroduce{width: 1000px; margin:0 auto;line-height: 33px;text-indent: 40px;font-size: 16px;}
+@font-face{ font-family:no; src:url( no.otf); }
+
+@font-face{ font-family:ff2; src:url( ff2.otf); }
+@font-face{ font-family:ff1; src:url( ff1.otf); }
+
+body{background:url(topbanner.jpg) no-repeat top center #fff;padding-top: 5px;background-size: 1400px auto; font-family: ff1; letter-spacing:1px;}
+.bottom{background:url(bottombg.jpg) no-repeat bottom center #fff;width:100%;background-size: 100% auto;height: 102px; }
+.instroduce{width: 1000px; margin:0 auto;line-height: 33px;text-indent: 40px;font-size: 16px; }
 .instroduce p{ padding:10px 0;}
-.instroduce h2{ text-indent: 0;}
+.instroduce h2{ text-indent: 0; letter-spacing:3px;}
 .golink{
     width: 1000px;
     height: 160px;
     margin: 0 auto;
     clear: both;height:150px;
 }
-.btn{
+.gbtn{
     float: left;
     width: 280px;
     margin-left: 39px; 
     text-align: center; 
 }
-.btn a{
+.gbtn a{
     display: block;
     height: 60px;
     line-height: 60px;
     text-align: center;
     margin-bottom: 10px; color:#fff;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: no;
+    letter-spacing: 2px;
+    
 }
-.btn a:hover{background:#0ccbc7; color:#fff; text-shadow:0 0 12px #fff}
+.gbtn a:hover{background:#0ccbc7; color:#fff; text-shadow:0 0 12px #fff;text-decoration: none;}
 
 .golink .bred a{ background:#fe3d3d}
 .golink .bred a:hover{ background:#cc2727}
@@ -44,7 +52,7 @@ body{background:url(topbanner.jpg) no-repeat top center #fff;padding-top: 419px;
 .golink .bblue a:hover{ background:#019dd2}
 .golink .bgray a{     background: #e3e3e3;cursor: not-allowed;}
 
-.btn p{
+.gbtn p{
     color: #333;
 }
 
@@ -487,4 +495,78 @@ height: 605px;
 .jiejue_con li a{
 	font-weight:600;
 	color:#008cd9;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
+
+
+
+ul.countdown {
+	list-style: none;
+	margin: 2px 0 390px;
+	padding: 0 0 0 135px;
+	display: block;
+	text-align: center;
+}
+ul.countdown li {
+	display: inline-block;
+	font-size: 15px;
+	font-family: ff1;
+}
+ul.countdown li span {
+	font-size: 20px;
+	font-weight: bolder;
+	line-height: 45px;
+	color: #fff;
+	letter-spacing: 3px;
+	text-shadow: 0 0 5px #f30a42;
+}
+ul.countdown li.seperator {
+	font-size: 16px;
+	line-height: 47px;
+	vertical-align: top;
+	color: #fff;
+}
+ul.countdown  li.ddg{ width:50px;}
+ul.countdown li p {
+	color: #a7abb1;
+	font-size: 14px;
+}
+a {
+	color: #76949F;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.source {
+	width: 405px;
+	margin: 0 auto;
+	background: #4f5861;
+	color: #a7abb1;
+	font-weight: bold;
+	display: none;
+	white-space: pre;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.btn {
+	background: #f56c4c;
+	margin: 40px auto;
+	padding: 12px;
+	display: block;
+	width: 100px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+.btn:hover {
+	text-decoration: none;
+	opacity: .7;
 }
