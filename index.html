@@ -20,12 +20,12 @@
 
 #spring-text {
   position: absolute;}
-  canvas{ position:absolute; top:124px; left:80px}
+  canvas{ position:absolute; top:124px; left:40px}
 </style>
 </head>
 <body>
 <ul class="countdown">
-  <li> <span class="days">00</span>
+ <li style="width:56px"> <span class="days" style="width:96px">00</span>
   </li>
   <li class="seperator">.</li>
   <li class="ddg"> <span class="hours">00</span>
@@ -56,8 +56,8 @@ var COLOR = "#fff"
 var MESSAGE = document.getElementById("title-desktop").textContent;
 
 var FONT_SIZE = 60;
-var AMOUNT = 5000;
-var SIZE = 0.7;
+var AMOUNT = 6000;
+var SIZE = 1;
 var INITIAL_DISPLACEMENT = 500;
 var INITIAL_VELOCITY = 5;
 var VELOCITY_RETENTION = 0.95;
