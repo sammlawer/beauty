@@ -105,7 +105,7 @@ img {
 	clear:both;
 }
 #header {
-	height:662px;
+	height:531px;
 }
 #header * {
 	z-index:10;
@@ -188,6 +188,7 @@ img {
 	background:url(footer_bac.gif);
 	height:55px;
 	text-align:center;
+
 }
 #footer span {
 	font-weight:600;
@@ -224,6 +225,7 @@ img {
 	margin:0 auto;
 	position:relative;
 	height:605px;
+		zoom: 80%;
 }
 .bac {
 	position:absolute;
