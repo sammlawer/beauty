@@ -43,7 +43,6 @@ body {
 .instroduce p {
 	padding:10px 0;
 	color: #000;
-	font-weight: bold;
 }
 
 .instroduce h2 {
@@ -53,7 +52,7 @@ body {
     font-family: ff1;
     line-height: 86px;
     font-weight: 100;
-    color: #01a6d7;
+    color: #3f3f3f;
 }
 
 .golink {
@@ -721,19 +720,19 @@ a:hover {
 }
 .top-title  p.labfont {
 	FONT-SIZE:20px;
-	line-height:55px;
-	font-weight:bolder;
+	line-height: 57px;
+	font-family: ff1;
 }
 .top-title {
 	width:604px;
-	margin:-248px auto 172px;
-	text-align:center;
+	margin: -238px auto 100px;
+	text-align:
+	center;
 }
 .top-title p {
 	color:#fff;
-	font-size:51px;
-	font-family:'no';
-	font-weight:bold;
+	font-size: 36px;
+	font-family: 'ff2';
 	letter-spacing:6px;
 	-webkit-animation:Glow 1.5s ease infinite alternate;
 	animation:Glow 1.5s ease infinite alternate;
@@ -756,5 +755,11 @@ to {
 
 
 
-
+#audio{    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: 2px solid #20f1f4;
+    border-radius: 50px;
+    z-index: 9999;
+	width:180px; overflow:hidden;}
 
