@@ -43,11 +43,16 @@ body {
 .instroduce p {
 	padding:10px 0;
 }
+
 .instroduce h2 {
-	text-indent:0;
-	letter-spacing:3px;
-	font-family:ff1;
+    text-indent: 0;
+    letter-spacing: 3px;
+    font-size: 72px;
+    font-family: ff1;
+    line-height: 86px;
+    font-weight: 100;
 }
+
 .golink {
 	width:1000px;
 	height:160px;
@@ -225,7 +230,7 @@ img {
 	margin:0 auto;
 	position:relative;
 	height:605px;
-		zoom: 80%;
+	zoom: 80%;
 }
 .bac {
 	position:absolute;
