@@ -38,7 +38,7 @@ body {
 	line-height:33px;
 	text-indent:40px;
 	font-size:16px;
-	padding-top:40px;
+	position: relative;padding-top:40px;
 }
 .instroduce p {
 	padding:10px 0;
@@ -755,11 +755,14 @@ to {
 
 
 
-#audio{    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    border: 2px solid #20f1f4;
+#audio{
+    position: absolute;
+    top: 58px;
+    left: 461px;
     border-radius: 50px;
     z-index: 9999;
-	width:180px; overflow:hidden;}
+    width: 483px;
+    overflow:
+    hidden;
+    }
 
