@@ -1,0 +1,171 @@
+﻿ * {margin: 0; padding:0;}
+        .frame {
+            position: relative;
+            height: 1080px;
+            width: 1303px;
+            zoom: 65%;
+            background-repeat:
+            no-repeat;
+            text-align: center;
+            margin: 6px auto;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+        }
+		
+		 .frame .hair_p {
+            width: 1080px;
+            height:1080px;
+            /*隐藏溢出*/
+            position: absolute;
+            overflow: hidden;
+            top: 0;
+            left: 0;transition: all 100ms ease-in-out;
+        }
+		.frame .hair_p img{transition: all 600ms ease-in-out;}
+		
+        .hair_b {
+            position: absolute;
+            /*字体的位置*/
+            right: 4px;
+            top: 0;
+            background: #f1f1f1;
+            height: 1060px;
+            width: 196px;
+            border-left: 1px solid #ccdc;
+            padding: 10px 7px 10px 16px;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            -webkit-overflow-scrolling: touch;
+        }
+		
+		
+		.b_h1{
+    background: #373737;
+    height: 30px;
+    color: #fff;    margin: 10px 0;
+    line-height: 30px;
+}
+		.b_h2{
+    height: 29px;
+    line-height: 29px;
+    font-size: 14px;
+    text-align: left;
+    text-indent: 9px;
+}
+		.b_con{}
+        .b_con a {
+            float: left;
+            /*将a标签定义为块级元素.可以显示个框框*/
+            display: block;
+            padding: 1px 4px;
+            border:1px solid #ccc;
+            margin-left: 2px;
+            text-decoration: none;
+            color: #309;
+            background:#fff;
+            font-size: 14px;
+            width: 51px;
+            line-height: 40px;
+            height: 40px; overflow:hidden;
+            margin-bottom: 2px;
+        }
+		.b_con a img{ width:100%;}
+        .b_con a:hover { font-size:16px;
+             border:1px solid  #FF00CC;
+            color:#000;
+        }
+.clear{ clear:both;}
+
+#glasses a{ width: 71px;}
+#nftbg a{    width: 50px;
+    height: 50px;
+    padding: 0;}
+.tabs{
+  position:
+  relative;
+  width: 109px;
+  height: 376px;
+}
+.tab-pane{
+  /* display:inline-block; */
+}
+.tabs input[type='radio']{
+  position:absolute;
+  clip:rect(0,0,0,0)
+}
+.tab-item{
+  display:
+  block;
+  height: 43px;
+  line-height:34px;
+  cursor:
+  pointer;
+  padding:0 10px
+;
+  margin-bottom: 4px;
+  width: 23px;
+}
+
+.tab-content{
+  position:
+  absolute;
+  border:1px solid #eee;
+  padding: 5px;
+  left:0;
+  top:36px;
+  bottom:0;
+  right:0;
+  background:#fff;
+}
+
+.tabs input[type='radio']:checked+.tab-item{/**导航选中状态**/
+
+}
+.tabs input[type='radio']:checked+.tab-item+.tab-content{/**当前内容切换**/
+  z-index:1
+}
+
+
+
+/**给导航添加横条的缩放效果**/
+.tab-item:after{
+  position:absolute;
+  content:'';
+  height:3px;
+  width:100%;
+  left:0;
+  bottom:2px;
+  transition:.3s;
+  transform:scaleX(0)
+}
+
+.tabs input[type='radio']:checked+.tab-item:after{
+  transform:scaleX(1)
+}
+/**给内容区域添加一个淡入淡出的效果**/
+.tab-content{
+  position:
+  absolute;
+  background:#eee;
+  padding: 2px;
+  left: 43px;
+  top: -3px;
+  bottom:0;
+  width: 133px;right:0;
+  transition:.3s;
+  opacity:0;
+}
+
+.tabs input[type='radio']:checked+.tab-item+.tab-content{
+  z-index:1;
+  opacity:1;
+}
+
+.black{ background:#111}
+.pink{ background:#FF3399}
+.red{ background:#af1775}
+.orange{ background:#FF6600}
+.yellow{ background:#e9eb3a}
+.green{ background:#66CC00}
+.blue{ background:#66CCCC}
+.purple{ background:#663399}
