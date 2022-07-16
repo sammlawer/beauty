@@ -71,7 +71,7 @@
         }
 		.b_con a img{ width:100%;}
         .b_con a:hover { font-size:16px;
-             border:1px solid  #FF00CC;
+             border:1px solid  #000;
             color:#000;
         }
 .clear{ clear:both;}
@@ -169,3 +169,135 @@
 .green{ background:#66CC00}
 .blue{ background:#66CCCC}
 .purple{ background:#663399}
+
+.head{
+    width: 850px;
+    margin: 7px auto 10px;
+    clear: both;
+    height: 31px;
+}
+.head h2{
+    display: block;
+    float: left;
+    width: 300px;
+    font-size: 25px;
+}
+.head h2 b{}
+.head_r{
+    float: right;
+    height: 30px;
+    line-height: 37px;
+    
+}
+.head_r a{
+    display: inline-block;
+    height: 30px;
+    width: 94px;
+    background: #d414dc;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #890bb8;
+    color: #fff;
+    margin-left: 11px;
+    border-radius: 2px;
+}
+.head_r a:hover{}
+
+.original_btn{ position:relative;height: 40px;line-height: 35px;text-align: left;}
+.original_btn b{}
+.original_btn button{ cursor:pointer;
+    height: 40px;
+    width: 167px;
+    margin-left: 9px;
+    background: #33e1d9;
+    position: absolute;
+    border: 1px solid #0c9ac3;
+    color: #000; letter-spacing:2px;
+    left: -6px;
+    top: 3px;
+    font-size: 17px;
+}
+.original_btn button:hover{   border: 1px solid #f5fdff;background: #b70256; color:#fff; }
+.original_btn b{}
+
+#original{ position:relative; z-index:9999;}
+#restyle{
+    cursor:pointer;
+    height: 60px;
+    width: 350px;
+    margin-left: 9px;
+    background: #ffffff61;
+    position: absolute;
+    border: 1px solid #000;
+    color: #000; letter-spacing:2px;
+    left: 350px;
+    bottom: 112px;
+    font-weight: bold;
+    font-size: 25px;
+	
+-moz-animation: title 2.4s linear infinite;
+    -webkit-animation: title 2.4s linear infinite;
+    animation: title 2.4s linear infinite;
+	    text-shadow: 0 0 6px #fff;
+    }
+	
+	@-webkit-keyframes title {
+  0% {
+    opacity: 0.8;
+    right: 130px;
+  }
+
+  48% {
+    opacity: 0.9;
+    right: 130px;
+  }
+
+  52% {
+    opacity: 1;
+    right: 30px;
+  }
+
+  70% {
+    opacity: 0.9;
+    right: 30px;
+  }
+
+  100% {
+    opacity:0.8;
+    right: 30px;
+  }
+}
+@-moz-keyframes title {
+  0% {
+    opacity: 0;
+    right: 130px;
+  }
+
+  48% {
+    opacity: 0;
+    right: 130px;
+  }
+
+  52% {
+    opacity: 1;
+    right: 30px;
+  }
+
+  70% {
+    opacity: 1;
+    right: 30px;
+  }
+
+  100% {
+    opacity: 0;
+    right: 30px;
+  }
+}
+
+#restyle:hover{
+     border: 1px solid #000;
+    background: #000;
+    border: 5px solid #000;
+    color: #fff; 
+    }
