@@ -1,6 +1,9 @@
 ﻿ * {margin: 0; padding:0;}
         body{
     position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
 }
 .frame {
             position: relative;
@@ -105,7 +108,7 @@
 .tabs{
   position:
   relative;
-  height: 208px;
+  height: 193px;
 }
 .tab-pane{float: left;}
 .tabs input[type='radio']{
@@ -115,7 +118,7 @@
 .tab-item{
   display:
   block;
-  height: 72px;
+  height: 61px;
   line-height:34px;
   cursor:
   pointer;
@@ -167,7 +170,7 @@
   absolute;
   padding: 2px;
   left: 0;
-  top: 85px;
+  top: 71px;
   bottom:0;
   width: 100%;
   height: 128px;right:0;
@@ -178,7 +181,7 @@
   -webkit-overflow-scrolling: touch;
 }
 .content_in{
-    width: 2381px;
+    width: 2502px;
     background: none;
 }
 
@@ -213,28 +216,35 @@
 .head h2{
     display: block;
     float: left;
-    width: 308px;
+    width: 366px;
     padding-left: 22px;
     font-size: 28px;
     line-height: 53px;
+    font-weight: normal;
 }
 .head h2 b{}
+.head h2 span{
+    font-weight: bold;
+    padding-right: 10px;
+}
 .head_r{
     float: right;
     height: 49px;
     line-height: 53px;
     padding-right: 15px;
+    font-size: 19px;
 }
 .head_r a{
     display: inline-block;
-    height: 45px;
-    width: 131px;
+    height: 50px;
+    width: 439px;
     background: #df0707;
     line-height: 45px;
     font-size: 25px;
     text-decoration: none;
     text-align: center;
     margin-top: 7px;
+    border-radius: 10px;
     border: 1px solid #b80b0b;
     font-weight: bold;
     color: #fff;
@@ -246,7 +256,7 @@
 }
 .head_r a:hover{}
 
-.original_btn{position: fixed;height: 74px;line-height: 35px;text-align: left;top: 1048px;background: #424245;z-index: 999;border-top: 3px solid #fcfcfc;width: 100%;}
+.original_btn{position: fixed;height: 74px;line-height: 35px;text-align: left;top: 1048px;background: #424245;z-index: 999;border-top: 3px solid #010101;width: 100%;}
 .original_btn b{}
 .original_btn button{
     cursor:
@@ -257,7 +267,8 @@
     background: #303030;
     position: absolute;
     border: 1px solid #b8adad;
-    color: #ff0404; letter-spacing:2px;
+    color: #ffffff; letter-spacing:2px;
+    border-radius: 17px;
     font-weight: bold;
     left: -9px;
     top: 10px;
