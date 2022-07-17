@@ -12,6 +12,16 @@
             background-color: #000000;
         }
 		
+		
+		@media screen and (max-width : 1500px)
+{ .frame {zoom: 99%;}}
+
+
+@media screen and (max-width : 3000px)
+{ .frame {zoom: 65%;}}
+		
+		
+		
 		 .frame .hair_p {
             width: 1000px;
             height: 1000px;
@@ -66,9 +76,9 @@
             color: #309;
             background:#fff;
             font-size: 14px;
-            width: 75px;
+            width: 70px;
             line-height: 40px;
-            height: 59px;
+            height: 57px;
             overflow:
             hidden;
             margin-bottom: 2px;
@@ -80,10 +90,10 @@
         }
 .clear{ clear:both;}
 
-#glasses a{width: 101px;}
+#glasses a{width: 97px;}
 #nftbg a{
-    width: 72px;
-    height: 72px;
+    width: 67px;
+    height: 67px;
     padding: 0;
     }
 .tabs{
@@ -221,7 +231,7 @@
     cursor:
     pointer;
     height: 40px;
-    width: 230px;
+    width: 221px;
     margin-left: 9px;
     background: #33e1d9;
     position: absolute;
