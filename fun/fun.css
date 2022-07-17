@@ -233,10 +233,11 @@
     height: 40px;
     width: 221px;
     margin-left: 9px;
-    background: #33e1d9;
+    background: #ffffff;
     position: absolute;
-    border: 1px solid #0c9ac3;
-    color: #000; letter-spacing:2px;
+    border: 1px solid #e50303;
+    color: #e50000; letter-spacing:2px;
+    font-weight: bold;
     left: -9px;
     top: 3px;
     font-size: 17px;
