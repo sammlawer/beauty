@@ -1,37 +1,39 @@
 ﻿ * {margin: 0; padding:0;}
         .frame {
             position: relative;
-            height: 1080px;
+            height: 1035px;
             width: 1303px;
-            zoom: 65%;
+            /* zoom: 65%; */
             background-repeat:
             no-repeat;
             text-align: center;
             margin: 6px auto;
             border: 1px solid #ccc;
-            background-color: #f1f1f1;
+            background-color: #000000;
         }
 		
 		 .frame .hair_p {
-            width: 1080px;
-            height:1080px;
+            width: 1000px;
+            height: 1000px;
             /*隐藏溢出*/
             position: absolute;
             overflow: hidden;
-            top: 0;
-            left: 0;transition: all 100ms ease-in-out;
+            top: 18px;
+            left: 16px;
+            transition: all 100ms ease-in-out;
         }
-		.frame .hair_p img{transition: all 600ms ease-in-out;}
+		.frame .hair_p img{transition: all 600ms ease-in-out;width: 100%;height: 100%;}
 		
         .hair_b {
             position: absolute;
             /*字体的位置*/
-            right: 4px;
+            right: 0px;
             top: 0;
             background: #f1f1f1;
-            height: 1060px;
-            width: 196px;
+            height: 1014px;
+            width: 248px;
             border-left: 1px solid #ccdc;
+            border-bottom: 1px solid #ccdc;
             padding: 10px 7px 10px 16px;
             overflow-y: scroll;
             overflow-x: hidden;
@@ -64,9 +66,11 @@
             color: #309;
             background:#fff;
             font-size: 14px;
-            width: 51px;
+            width: 75px;
             line-height: 40px;
-            height: 40px; overflow:hidden;
+            height: 59px;
+            overflow:
+            hidden;
             margin-bottom: 2px;
         }
 		.b_con a img{ width:100%;}
@@ -76,15 +80,17 @@
         }
 .clear{ clear:both;}
 
-#glasses a{ width: 71px;}
-#nftbg a{    width: 50px;
-    height: 50px;
-    padding: 0;}
+#glasses a{width: 101px;}
+#nftbg a{
+    width: 72px;
+    height: 72px;
+    padding: 0;
+    }
 .tabs{
   position:
   relative;
   width: 109px;
-  height: 376px;
+  height: 518px;
 }
 .tab-pane{
   /* display:inline-block; */
@@ -96,14 +102,14 @@
 .tab-item{
   display:
   block;
-  height: 43px;
+  height: 60px;
   line-height:34px;
   cursor:
   pointer;
   padding:0 10px
 ;
   margin-bottom: 4px;
-  width: 23px;
+  width: 32px;
 }
 
 .tab-content{
@@ -111,7 +117,7 @@
   absolute;
   border:1px solid #eee;
   padding: 5px;
-  left:0;
+  left: 4px;
   top:36px;
   bottom:0;
   right:0;
@@ -148,10 +154,10 @@
   absolute;
   background:#eee;
   padding: 2px;
-  left: 43px;
+  left: 52px;
   top: -3px;
   bottom:0;
-  width: 133px;right:0;
+  width: 178px;right:0;
   transition:.3s;
   opacity:0;
 }
@@ -171,7 +177,7 @@
 .purple{ background:#663399}
 
 .head{
-    width: 850px;
+    width: 1300px;
     margin: 7px auto 10px;
     clear: both;
     height: 31px;
@@ -180,6 +186,7 @@
     display: block;
     float: left;
     width: 300px;
+    padding-left: 22px;
     font-size: 25px;
 }
 .head h2 b{}
@@ -187,34 +194,40 @@
     float: right;
     height: 30px;
     line-height: 37px;
-    
+    padding-right: 23px;
 }
 .head_r a{
     display: inline-block;
     height: 30px;
-    width: 94px;
-    background: #d414dc;
+    width: 131px;
+    background: #df0707;
     line-height: 30px;
     text-decoration: none;
     text-align: center;
-    border: 1px solid #890bb8;
+    border: 1px solid #b80b0b;
+    font-weight: bold;
     color: #fff;
     margin-left: 11px;
-    border-radius: 2px;
+    -moz-animation: title 2.4s linear infinite;
+    -webkit-animation: title 2.4s linear infinite;
+    animation: title 2.4s linear infinite;
+    text-shadow: 0 0 6px #fff;
 }
 .head_r a:hover{}
 
 .original_btn{ position:relative;height: 40px;line-height: 35px;text-align: left;}
 .original_btn b{}
-.original_btn button{ cursor:pointer;
+.original_btn button{
+    cursor:
+    pointer;
     height: 40px;
-    width: 167px;
+    width: 230px;
     margin-left: 9px;
     background: #33e1d9;
     position: absolute;
     border: 1px solid #0c9ac3;
     color: #000; letter-spacing:2px;
-    left: -6px;
+    left: -9px;
     top: 3px;
     font-size: 17px;
 }
@@ -227,10 +240,10 @@
     height: 60px;
     width: 350px;
     margin-left: 9px;
-    background: #ffffff61;
+    background: #000;
     position: absolute;
     border: 1px solid #000;
-    color: #000; letter-spacing:2px;
+    color: #fff; letter-spacing:2px;
     left: 350px;
     bottom: 112px;
     font-weight: bold;
@@ -241,7 +254,7 @@
     animation: title 2.4s linear infinite;
 	    text-shadow: 0 0 6px #fff;
     }
-	
+	#restyle:hover	{color:#33FFFF; text-shadow:0 0 6px 33FFFF; }
 	@-webkit-keyframes title {
   0% {
     opacity: 0.8;
