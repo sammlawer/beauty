@@ -3,12 +3,36 @@
 
 <head>
 <title>AI GIRLS 2097</title>
-<link type="text/css" rel="stylesheet" href="fun.css" />
-<link type="text/css" rel="stylesheet" href="face.css" />
 <script src="https://cdn.bootcss.com/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>	
+<script type="text/javascript">
+        //根据设备加载不同的样式
+        var setStyle = function(cssArr){
+            var i= 0,len = cssArr.length;
+            for(i;i<len;i++){
+                document.write('<link href="'+cssArr[i]+'" type="text/css" rel=stylesheet>');
+            }
+        };
+        // 判断是否移动端
+        function goPAGE() {
+            if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+                // window.location.href="移动端url";
+               
+                //判断访问环境是 移动端 则加载以下样式
+                setStyle(['fun-m.css']);
+            }
+            else {
+                // window.location.href="pc端url"; 
+               
+				setStyle(['fun.css']);
+            }
+        }
+        goPAGE();        // 调用function
+
+</script>	
 </head>
 
 <body>
+
 
        
 		  <div class="head">
@@ -228,10 +252,7 @@
 		   
 	
 		 
-		
-		
-		<div class=" hair_b">
-		    <div class="original_btn">
+		<div class="original_btn">
 				 <button id="show" type="button">Original:HIDE</button>
 			     <button id="hide" type="button">Original:SHOW</button>
 				 
@@ -260,6 +281,9 @@
 				 
             </div>
 		
+		<div class=" hair_b">
+		    
+		
 		     <div class="b_h1">Hair Style</div>
 			 <div class="b_con tabs">
 			 
@@ -268,6 +292,7 @@
 							<input type="radio" name="tab" id="tab01" checked / >
 							<label class="tab-item black " for="tab01"></label>
 							<div class="tab-content">
+							     <div class="content_in">
 								<a href="#black_hair1"><img src="hair/black/1.png"></a>
 								<a href="#black_hair2"><img src="hair/black/1.png"></a>
 								<a href="#black_hair3"><img src="hair/black/1.png"></a>
@@ -285,12 +310,14 @@
 								<a href="#black_hair15"><img src="hair/black/15.png"></a>
 								<a href="#black_hair17"><img src="hair/black/17.png"></a>
 								<div class="clear"></div>
+								</div>
 							</div>
                   </div>
 				  <div class="tab-pane">
 							<input type="radio" name="tab" id="tab02"/>
 							<label class="tab-item pink" for="tab02"></label>
 							<div class="tab-content">
+							<div class="content_in">
 									<a href="#pink_hair1"><img src="hair/pink/1.png"></a>
 									<a href="#pink_hair2"><img src="hair/pink/2.png"></a>
 									<a href="#pink_hair3"><img src="hair/pink/3.png"></a>
@@ -307,13 +334,15 @@
 									<a href="#pink_hair14"><img src="hair/pink/14.png"></a>
 									<a href="#pink_hair15"><img src="hair/pink/15.png"></a>
 									<a href="#pink_hair17"><img src="hair/pink/17.png"></a>
-									<div class="clear"></div>							
+									<div class="clear"></div>		
+									</div>					
 							</div>
 				  </div>				  
 				  <div class="tab-pane">
 							<input type="radio" name="tab" id="tab03"/>
 							<label class="tab-item red" for="tab03"></label>
 							<div class="tab-content">
+							<div class="content_in">
 								<a href="#red_hair1"><img src="hair/red/1.png"></a>
 								<a href="#red_hair2"><img src="hair/red/2.png"></a>
 								<a href="#red_hair3"><img src="hair/red/3.png"></a>
@@ -330,7 +359,8 @@
 								<a href="#red_hair14"><img src="hair/red/14.png"></a>
 								<a href="#red_hair15"><img src="hair/red/15.png"></a>
 								<a href="#red_hair17"><img src="hair/red/17.png"></a>
-								<div class="clear"></div>							
+								<div class="clear"></div>		
+								</div>					
 							</div>
 				  </div>
 
@@ -338,6 +368,7 @@
 							<input type="radio" name="tab" id="tab04"/>
 							<label class="tab-item orange" for="tab04"></label>
 							<div class="tab-content">
+							<div class="content_in">
 								<a href="#orange_hair1"><img src="hair/orange/1.png"></a>
 								<a href="#orange_hair2"><img src="hair/orange/2.png"></a>
 								<a href="#orange_hair3"><img src="hair/orange/3.png"></a>
@@ -355,6 +386,7 @@
 								<a href="#orange_hair15"><img src="hair/orange/15.png"></a>
 								<a href="#orange_hair17"><img src="hair/orange/17.png"></a>
 								<div class="clear"></div>
+								</div>
 
 							</div>
 				  </div>
@@ -362,6 +394,7 @@
 							<input type="radio" name="tab" id="tab05"/>
 							<label class="tab-item yellow" for="tab05"></label>
 							<div class="tab-content">
+							<div class="content_in">
 								<a href="#yellow_hair1"><img src="hair/yellow/1.png"></a>
 								<a href="#yellow_hair2"><img src="hair/yellow/2.png"></a>
 								<a href="#yellow_hair3"><img src="hair/yellow/3.png"></a>
@@ -378,13 +411,15 @@
 								<a href="#yellow_hair14"><img src="hair/yellow/14.png"></a>
 								<a href="#yellow_hair15"><img src="hair/yellow/15.png"></a>
 								<a href="#yellow_hair17"><img src="hair/yellow/17.png"></a>
-								<div class="clear"></div>							
+								<div class="clear"></div>	
+								</div>						
 							</div>
 				  </div>
 				  <div class="tab-pane">
 							<input type="radio" name="tab" id="tab06"/>
 							<label class="tab-item green" for="tab06"></label>
 							<div class="tab-content">
+							<div class="content_in">
 								<a href="#green_hair1"><img src="hair/green/1.png"></a>
 								<a href="#green_hair2"><img src="hair/green/2.png"></a>
 								<a href="#green_hair3"><img src="hair/green/3.png"></a>
@@ -401,13 +436,15 @@
 								<a href="#green_hair14"><img src="hair/green/14.png"></a>
 								<a href="#green_hair15"><img src="hair/green/15.png"></a>
 								<a href="#green_hair17"><img src="hair/green/17.png"></a>
-								<div class="clear"></div>				
+								<div class="clear"></div>		
+								</div>		
 							</div>
 				  </div>
 				  	<div class="tab-pane">
 							<input type="radio" name="tab" id="tab07"/>
 							<label class="tab-item blue" for="tab07"></label>
 							<div class="tab-content">
+							<div class="content_in">
 									<a href="#blue_hair1"><img src="hair/blue/1.png"></a>
 									<a href="#blue_hair2"><img src="hair/blue/2.png"></a>
 									<a href="#blue_hair3"><img src="hair/blue/3.png"></a>
@@ -424,13 +461,15 @@
 									<a href="#blue_hair14"><img src="hair/blue/14.png"></a>
 									<a href="#blue_hair15"><img src="hair/blue/15.png"></a>
 									<a href="#blue_hair17"><img src="hair/blue/17.png"></a>
-									<div class="clear"></div>							
+									<div class="clear"></div>	
+									</div>						
 							</div>
 				  </div>
 				  <div class="tab-pane">
 							<input type="radio" name="tab" id="tab08"/>
 							<label class="tab-item purple" for="tab08"></label>
 							<div class="tab-content">
+							<div class="content_in">
 							         <a href="#purple_hair1"><img src="hair/purple/1.png"></a>
 									<a href="#purple_hair2"><img src="hair/purple/2.png"></a>
 									<a href="#purple_hair3"><img src="hair/purple/3.png"></a>
@@ -448,6 +487,7 @@
 									<a href="#purple_hair15"><img src="hair/purple/15.png"></a>
 									<a href="#purple_hair17"><img src="hair/purple/17.png"></a>
 									<div class="clear"></div>
+									</div>
 							</div>
 				  </div>
 					
@@ -458,6 +498,7 @@
 			</div>
 			<div class="b_h1">GLASSES</div>
 			 <div class="b_con" id="glasses">
+			 <div class="content_in">
 			 <a href="#glass2"><img src="glasses/t2.png"></a>
 			   
 				<a href="#glass1"><img src="glasses/t1.png"></a>
@@ -469,6 +510,7 @@
 				<a href="#glass7"><img src="glasses/t7.png"></a>
 				 <a href="#glass0">None</a>
 				<div class="clear"></div>
+				</div>
 			</div>
 			
 			<div class="b_h1">Background</div>
@@ -479,12 +521,13 @@
 				<a href="#bg4"><img src="bg/4.png" ></a>
 				<a href="#bg5"><img src="bg/5.png" ></a>
 				<a href="#bg6"><img src="bg/6.png" ></a>
-				<a href="#bg8"><img src="bg/8.png" ></a>
-				
-								
-				
+				<a href="#bg8"><img src="bg/8.png" ></a>		
 				<div class="clear"></div>
 			</div>
+			
+			
+			
+			
 			
         </div>
 		

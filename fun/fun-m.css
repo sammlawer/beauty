@@ -1,40 +1,40 @@
 ﻿ * {margin: 0; padding:0;}
-        .frame {
+        body{
+    position: relative;
+}
+.frame {
             position: relative;
-            height: 1035px;
-            width: 1303px;
-            zoom: 65%;
+            width: 1000px;
             background-repeat:
             no-repeat;
             text-align: center;
             margin: 6px auto;
             border: 1px solid #ccc;
-            background-color: #000000;
         }
-		
 		
 		
 		
 		 .frame .hair_p {
-            width: 1000px;
-            height: 1000px;
+            width: 100%;
+            height: 1062px;
             /*隐藏溢出*/
-            position: absolute;
+            position: fixed;
             overflow: hidden;
-            top: 18px;
-            left: 16px;
+            top: -13px;
+            text-align: center;
+            left: 0px;
             transition: all 100ms ease-in-out;
         }
-		.frame .hair_p img{transition: all 600ms ease-in-out;width: 100%;height: 100%;}
+		.frame .hair_p img{transition: all 600ms ease-in-out;width: 1000px;height: 1000px;padding-top: 87px;}
 		
         .hair_b {
-            position: absolute;
+            position: fixed;
             /*字体的位置*/
-            right: 0px;
-            top: 54px;
-            background: #f1f1f1;
-            height: 960px;
-            width: 248px;
+            right: 1px;
+            top: 1111px;
+            background: #000000;
+            height: 662px;
+            width: 98%;
             border-left: 1px solid #ccdc;
             border-bottom: 1px solid #ccdc;
             padding: 10px 7px 10px 16px;
@@ -46,9 +46,13 @@
 		
 		.b_h1{
     background: #373737;
-    height: 30px;
-    color: #fff;    margin: 10px 0;
-    line-height: 30px;
+    height: 35px;
+    color: #fff;
+    margin: 10px 0;
+    line-height: 35px;
+    font-size: 21px;
+    text-align: left;
+    text-indent: 15px;
 }
 		.b_h2{
     height: 29px;
@@ -57,47 +61,53 @@
     text-align: left;
     text-indent: 9px;
 }
-		.b_con{}
+		.b_con{
+    overflow-y: hidden;
+    overflow-x: scroll;
+    height: 105px;
+    -webkit-overflow-scrolling: touch;
+}
         .b_con a {
             float: left;
             /*将a标签定义为块级元素.可以显示个框框*/
             display: block;
             padding: 1px 4px;
-            border:1px solid #ccc;
-            margin-left: 2px;
+            border: 1px solid #898282;
+            margin-left: 9px;
             text-decoration: none;
-            color: #309;
-            background:#fff;
-            font-size: 14px;
-            width: 70px;
-            line-height: 40px;
-            height: 57px;
+            color: #636060;
+            background: #fff;
+            font-size: 31px;
+            width: 136px;
+            line-height: 96px;
+            height: 116px;
             overflow:
             hidden;
             margin-bottom: 2px;
         }
-		.b_con a img{ width:100%;}
+		.b_con a img{width: 100%;}
         .b_con a:hover { font-size:16px;
              border:1px solid  #000;
             color:#000;
         }
 .clear{ clear:both;}
 
-#glasses a{width: 97px;}
+.tab-content  a img{ margin-top:10px;}
+
+
+#glasses a{width: 193px;height: 100px;background: #fff;}
 #nftbg a{
-    width: 67px;
-    height: 67px;
+    width: 100px;
+    height: 100px;
     padding: 0;
+    margin-left: 7px;
     }
 .tabs{
   position:
   relative;
-  width: 109px;
-  height: 518px;
+  height: 208px;
 }
-.tab-pane{
-  /* display:inline-block; */
-}
+.tab-pane{float: left;}
 .tabs input[type='radio']{
   position:absolute;
   clip:rect(0,0,0,0)
@@ -105,26 +115,26 @@
 .tab-item{
   display:
   block;
-  height: 60px;
+  height: 72px;
   line-height:34px;
   cursor:
   pointer;
   padding:0 10px
 ;
-  margin-bottom: 4px;
-  width: 32px;
+  border: 1px solid #ccc;
+  margin-bottom: 9px;
+  width: 86px;
+  margin-left: 10px;
 }
 
 .tab-content{
   position:
   absolute;
-  border:1px solid #eee;
   padding: 5px;
   left: 4px;
   top:36px;
   bottom:0;
   right:0;
-  background:#fff;
 }
 
 .tabs input[type='radio']:checked+.tab-item{/**导航选中状态**/
@@ -155,16 +165,27 @@
 .tab-content{
   position:
   absolute;
-  background:#eee;
   padding: 2px;
-  left: 52px;
-  top: -3px;
+  left: 0;
+  top: 85px;
   bottom:0;
-  width: 178px;right:0;
+  width: 100%;
+  height: 128px;right:0;
   transition:.3s;
   opacity:0;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+.content_in{
+    width: 2381px;
+    background: none;
 }
 
+#glasses .content_in{
+    width: 1814px;
+    height: 112px;
+}
 .tabs input[type='radio']:checked+.tab-item+.tab-content{
   z-index:1;
   opacity:1;
@@ -180,33 +201,40 @@
 .purple{ background:#663399}
 
 .head{
-    width: 900px;
-    margin: 7px auto 10px;
+    padding: 7px 0 10px 0;
     clear: both;
-    height: 31px;
+    height: 53px;
+    position: fixed;
+    z-index: 99999;
+    background: #fff;
+    top: 0;
+    width: 100%;
 }
 .head h2{
     display: block;
     float: left;
-    width: 300px;
+    width: 308px;
     padding-left: 22px;
-    font-size: 25px;
+    font-size: 28px;
+    line-height: 53px;
 }
 .head h2 b{}
 .head_r{
     float: right;
-    height: 30px;
-    line-height: 37px;
-    padding-right: 23px;
+    height: 49px;
+    line-height: 53px;
+    padding-right: 15px;
 }
 .head_r a{
     display: inline-block;
-    height: 30px;
+    height: 45px;
     width: 131px;
     background: #df0707;
-    line-height: 30px;
+    line-height: 45px;
+    font-size: 25px;
     text-decoration: none;
     text-align: center;
+    margin-top: 7px;
     border: 1px solid #b80b0b;
     font-weight: bold;
     color: #fff;
@@ -218,27 +246,27 @@
 }
 .head_r a:hover{}
 
-.original_btn{position: absolute;height: 54px;line-height: 35px;text-align: left;width: 273px;background: #f1f1f1;top: 0px;right: 0;border-bottom: 1px solid #ccc;z-index: 999;}
+.original_btn{position: fixed;height: 74px;line-height: 35px;text-align: left;top: 1048px;background: #424245;z-index: 999;border-top: 3px solid #fcfcfc;width: 100%;}
 .original_btn b{}
 .original_btn button{
     cursor:
     pointer;
-    height: 40px;
-    width: 221px;
-    margin-left: 9px;
-    background: #ffffff;
+    height: 57px;
+    width: 273px;
+    margin-left: 21px;
+    background: #303030;
     position: absolute;
-    border: 1px solid #e50303;
-    color: #e50000; letter-spacing:2px;
+    border: 1px solid #b8adad;
+    color: #ff0404; letter-spacing:2px;
     font-weight: bold;
-    left: 18px;
-    top: 6px;
-    font-size: 17px;
+    left: -9px;
+    top: 10px;
+    font-size: 22px;
 }
 .original_btn button:hover{   border: 1px solid #f5fdff;background: #b70256; color:#fff; }
 .original_btn b{}
 
-#original{ position:relative; z-index:9999;}
+#original{position:relative; z-index:9999;top: -20px;}
 #restyle{
     cursor:
     pointer;
