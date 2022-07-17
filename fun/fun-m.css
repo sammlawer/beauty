@@ -105,6 +105,14 @@
     padding: 0;
     margin-left: 7px;
     }
+#nftcloth{}
+#nftcloth .content_in{
+    width: 1600px;
+}
+#nftcloth a{}
+#nftcloth a img{
+    margin-top: -53px;
+}
 .tabs{
   position:
   relative;
@@ -361,5 +369,5 @@
     }
 	
 .hair_bin{
-    height: 720px;
+    height: 855px;
 }	
