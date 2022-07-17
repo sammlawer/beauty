@@ -48,7 +48,7 @@ body {
 .instroduce h2,.instroduce2 h2 {
     text-indent: 0;
     letter-spacing: 3px;
-    font-size: 15px;
+    font-size: 1.2em;
     font-family: ff1;
     line-height: 86px;
     font-weight: bold;
@@ -60,7 +60,7 @@ body {
 	margin: 0 auto 20px;
 	line-height: 40px;
 	text-indent:40px;
-	font-size: 11px;
+	font-size: 0.8em;
 	height: 260px;
 	position: relative;
 	overflow-y: scroll;
@@ -748,4 +748,4 @@ to {
     overflow:
     hidden;
     }
-#listframe{width: 1000px;height: 7110px;margin: 0 auto;display: block;overflow: hidden;}
+#listframe{width: 1000px;height: 105600px;margin: 0 auto;display: block;overflow: hidden;}

@@ -31,12 +31,11 @@
     display: block;
     margin-top: 10px;
     margin-bottom: 15px;
-    font-size: 19px;
+    font-size: 1.4em;
 }
-.nfts_con .n_unit { display:block;width: 237px; float:left;overflow: hidden;height: 275px;margin-right: 5px;}
+.nfts_con .n_unit { display:block;width: 100%;overflow: hidden;/* height: 275px; */margin-right: 5px;}
 .nfts_con .n_unit a{
-    height: 225px;
-    width: 225px;
+    width: 100%;
     overflow: hidden;
     display: block;
     position: relative;
