@@ -33,7 +33,7 @@ body {
 	height:102px;
 }
 .instroduce {
-	width: 980px;
+	width: 944px;
 	margin:0 auto;
 	line-height:33px;
 	text-indent:40px;
@@ -48,20 +48,20 @@ body {
 .instroduce h2,.instroduce2 h2 {
     text-indent: 0;
     letter-spacing: 3px;
-    font-size: 40px;
+    font-size: 15px;
     font-family: ff1;
     line-height: 86px;
-    font-weight: 100;
+    font-weight: bold;
     color: #3f3f3f;
 }
 
 .instroduce2 {
-	width: 960px;
+	width: 915px;
 	margin: 0 auto 20px;
-	line-height:33px;
+	line-height: 40px;
 	text-indent:40px;
-	font-size:16px;
-	height: 120px;
+	font-size: 11px;
+	height: 260px;
 	position: relative;
 	overflow-y: scroll;
 	border: 1px dotted  #ddd;
@@ -71,7 +71,7 @@ body {
 .instroduce2 h3 {
     text-indent: 0;
     letter-spacing: 3px;
-    font-size: 30px;
+    font-size: 13px;
     font-family: ff1;
     line-height: 86px;
     font-weight: 100;
@@ -642,8 +642,9 @@ ul.countdown li p {
 	font-size:14px;
 }
 a {
-	color:#76949F;
-	text-decoration:none;
+	color: #000000;
+	text-decoration:
+	none;
 }
 a:hover {
 	text-decoration:underline;
@@ -743,4 +744,4 @@ to {
     overflow:
     hidden;
     }
-
+#listframe{width: 1000px;height: 7110px;margin: 0 auto;display: block;overflow: hidden;}
