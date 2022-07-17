@@ -66,11 +66,11 @@
             border:1px solid #ccc;
             margin-left: 2px;
             text-decoration: none;
-            color: #309;
+            color: #000000;
             background:#fff;
-            font-size: 14px;
+            font-size: 20px;
             width: 70px;
-            line-height: 40px;
+            line-height: 54px;
             height: 57px;
             overflow:
             hidden;
@@ -188,11 +188,15 @@
 .head h2{
     display: block;
     float: left;
-    width: 300px;
+    width: 400px;
     padding-left: 22px;
     font-size: 25px;
+    font-weight: normal;
+    letter-spacing: 0px;
 }
-.head h2 b{}
+.head h2 span{
+    font-weight: bold;
+}
 .head_r{
     float: right;
     height: 30px;
@@ -202,8 +206,9 @@
 .head_r a{
     display: inline-block;
     height: 30px;
-    width: 131px;
+    width: 231px;
     background: #df0707;
+    border-radius: 10px;
     line-height: 30px;
     text-decoration: none;
     text-align: center;
@@ -252,9 +257,9 @@
     left: 278px;
     box-shadow: 0 0 10px #03ff8f;
     bottom: 112px;
-    border-radius: 56px;
+    border-radius: 33px;
     font-weight: bold;
-    font-size: 38px;
+    font-size: 33px;
     -moz-animation: title 2.4s linear infinite;
     -webkit-animation: title 2.4s linear infinite;
     animation: title 2.4s linear infinite;
