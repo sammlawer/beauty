@@ -32,11 +32,12 @@
     margin-top: 10px;
     margin-bottom: 10px; font-size:14px;
 }
-.nfts_con .n_unit { display:block;width: 174px; float:left;overflow: hidden;height: 209px;margin-right: 5px;border: 1px solid #dfdfdf;padding: 6px;margin-bottom: 10px;}
+.nfts_con .n_unit { display:block;width: 174px; float:left;overflow: hidden;height: 209px;border-radius: 10px;margin-right: 5px;border: 1px solid #e3dfdf;padding: 6px;/* box-shadow: 0 0 10px #ccc; */margin-bottom: 10px;}
 .nfts_con .n_unit a{
     height: 174px;
     width: 174px;
     overflow: hidden;
+    border-radius: 8px;
     display: block;
     position: relative;
 } 
@@ -48,7 +49,7 @@
     transition: all 280ms ease-in-out; height: 300px; width:300px;
     margin-left: -115px;
     margin-top: -65px; }
-
+.nfts_con .n_unit:hover{box-shadow: 0 0 10px #ccc;}
 .nfts_con .n_unit a u {
     display: block;
     text-decoration:

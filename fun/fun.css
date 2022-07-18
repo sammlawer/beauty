@@ -1,4 +1,6 @@
 ﻿ * {margin: 0; padding:0;}
+ 
+body{background: linear-gradient(#d7f5ff 30%, #ffffff 100%)  no-repeat;}
         .frame {
             position: relative;
             height: 1035px;
@@ -199,8 +201,10 @@
     float: left;
     width: 400px;
     padding-left: 22px;
-    font-size: 25px;
+    line-height: 36px;
+    font-size: 22px;
     font-weight: normal;
+    text-shadow: 0 0 10px #fff;
     letter-spacing: 0px;
 }
 .head h2 span{
@@ -215,15 +219,15 @@
 .head_r a{
     display: inline-block;
     height: 30px;
-    width: 231px;
-    background: #df0707;
+    width: 177px;
+    background: #ffffff69;
     border-radius: 10px;
     line-height: 30px;
     text-decoration: none;
     text-align: center;
     border: 1px solid #b80b0b;
     font-weight: bold;
-    color: #fff;
+    color: #d30303;
     margin-left: 11px;
     -moz-animation: title 2.4s linear infinite;
     -webkit-animation: title 2.4s linear infinite;
@@ -242,10 +246,11 @@
     margin-left: 9px;
     background: #ffffff;
     position: absolute;
-    border: 1px solid #e50303;
+    border: 1px solid #cdcdcd;
     color: #e50000; letter-spacing:2px;
     font-weight: bold;
     left: 18px;
+    border-radius: 14px;
     top: 6px;
     font-size: 17px;
 }
@@ -259,21 +264,24 @@
     height: 99px;
     width: 428px;
     margin-left: 9px;
-    background: #000;
+    background: #ffffff38;
     position: absolute;
-    border: 1px solid #000;
-    color: #fff; letter-spacing:2px;
+    border: 1px solid #e3e3e3;
+    color: #f30c0c; letter-spacing:2px;
     left: 278px;
-    box-shadow: 0 0 10px #fff;
+    box-shadow: 0 0 10px #c71212;
     bottom: 112px;
+    text-shadow: 2px 2px 0px #fff;
     border-radius: 33px;
     font-weight: bold;
-    font-size: 33px;
+    font-size: 40px;
     -moz-animation: title 2.4s linear infinite;
     -webkit-animation: title 2.4s linear infinite;
     animation: title 2.4s linear infinite;
-	animation: breathe 1.1s infinite;
+    animation: breathe 1.1s infinite;
     }
+	
+	.head_r .nft_home{width: 125px;color: #222;border: 1px solid #898989;}
 	
 	@keyframes breathe{
 		  0%{ transform: scale(.99); }

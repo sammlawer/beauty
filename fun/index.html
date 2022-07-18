@@ -28,7 +28,10 @@
         }
         goPAGE();        // 调用function
 
-</script>	
+</script>
+
+
+	
 </head>
 
 <body>
@@ -37,9 +40,10 @@
        
 		  <div class="head">
 		  		<h2><span>NFT:</span>AI GIRLS 2097<b>#</b><b id="sid">0000</b></h2>  <!--<h3>CODE:<span id="code">寒雪</span></h3>-->
-                <div class="head_r"><a id="nft_sch" target="_blank" href="https://opensea.io/collection/aigirls2097">Buy/Check This NFT Ownership</a></div> 
+                <div class="head_r">
+				<a class="nft_home" href="../index.html" >Home</a>
+				<a id="nft_sch" target="_blank" href="https://opensea.io/collection/aigirls2097">Get the Ownership</a></div> 
 		  </div>
-
 			<script type="text/javascript">
 				function getUrlParam(name){
 					//正则表达式过滤
@@ -82,10 +86,52 @@
 
 	
 	 <div id="original"  class="hair_p" >
-	          <button id="restyle" type="button">Press Restyle First</button>
+	          <button id="restyle" type="button">Restyle Now >></button>
               <img id="thumbid" src="../thumb/0.png" >
 	 </div>
-	 <div class="hair_p">
+	 
+				 <script type="text/javascript">
+			
+			// 导出图片
+			function CreatImg() {
+			 console.log('test');
+			  html2canvas(document.getElementById('newphoto'), {
+				onrendered: function(canvas) {
+				  // 创建一个canvas
+				  // document.body.appendChild(canvas);
+				  dataUrl=canvas.toDataURL("image/jpeg", 1.0);
+				  DownLoadImg(dataUrl.replace("data:image/jpeg;base64,", ""))
+				},
+			  });
+			}
+			
+			function DownLoadImg(content){
+			 // 格式
+			 var imageType='png';
+			 // 文件名
+			 var fileName=Date.now();
+			 var raw = window.atob(content);
+			 var rawLength = raw.length;
+			 var uInt8Array = new Uint8Array(rawLength);
+			 for(var i = 0; i < rawLength; ++i) {
+				 uInt8Array[i] = raw.charCodeAt(i);
+			 }
+			 var blob = new Blob([uInt8Array], {type:'image/'+imageType}); 
+			 var aLink = document.createElement('a');
+			 var evt = document.createEvent("HTMLEvents");
+			 evt.initEvent("click", true, true);
+			 aLink.download = fileName;
+			 aLink.href = URL.createObjectURL(blob);
+			 aLink.click();
+			}
+			</script>
+	 
+	 
+	 
+	  <div id="newphoto">
+	  
+	  
+	  <div class="hair_p" >
             <img src="bg/1.png"  id="bg1">
            <img src="bg/2.png"  id="bg2">
 		   <img src="bg/3.png"  id="bg3">
@@ -95,6 +141,8 @@
 		   <img src="bg/7.png"  id="bg7">  
 		    <img src="bg/8.png"  id="bg8">       
 	 </div>
+	 
+	
       <div   class="hair_p" >
               <img id="plv_" src="face/0.png" >
 	   </div>
@@ -262,12 +310,13 @@
 		 </div>
 		 
 		
-		   
+		</div>   
 	
 		 
 		<div class="original_btn">
-				 <button id="show" type="button">Original:HIDE</button>
-			     <button id="hide" type="button">Original:SHOW</button>
+				 <button id="show" type="button">Original Pic:HIDE</button>
+			     <button id="hide" type="button" style="color:#FF0000">Original Pic:SHOW</button>
+				 
 				 
 						<script type="text/javascript">
 						$(document).ready(function(){
