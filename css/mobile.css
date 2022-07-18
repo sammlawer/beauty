@@ -37,7 +37,7 @@ body {
 	margin:0 auto;
 	line-height:33px;
 	text-indent:40px;
-	font-size:16px;
+	font-size: 34px;
 	position: relative;
 }
 .instroduce p ,.instroduce2 p{
@@ -60,7 +60,7 @@ body {
 	margin: 0 auto 20px;
 	line-height: 40px;
 	text-indent:40px;
-	font-size: 0.8em;
+	font-size: 30px;
 	height: 260px;
 	position: relative;
 	overflow-y: scroll;
@@ -740,12 +740,13 @@ to {
 
 #audio{
     position: absolute;
-    top: 15px;
-    left: 461px;
+    top: -15px;
+    right: 50px;
     border-radius: 50px;
     z-index: 9999;
     width: 483px;
     overflow:
     hidden;
     }
-#listframe{width: 1000px;height: 105600px;margin: 0 auto;display: block;overflow: hidden;}
+#listframe{width: 1000px;height: 107600px;margin: 0 auto;display: block;overflow: hidden;}
+.btop{ font-size:50px;  font-weight:bold;}

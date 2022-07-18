@@ -77,7 +77,10 @@ body {
     font-weight: 100;
     color: #3f3f3f;
 }
-
+.btop{
+    font-size: 50px;
+    color: #9b17c1;
+}
 .nfts_pages{width: 1000px;margin: 0 auto 10px;height: 40px;clear: both;}
 .nfts_pages a{display:block;width: 58px;font-size: 14px;border: 1px solid #ddd;float:left;margin-right: 5px;text-align: center;padding: 2px 5px;}
 .nfts_pages a:hover{ text-decoration:none; background: #9900FF; color:#fff; border:1px solid #66FFFF; transition: all 100ms ease-in-out; }
@@ -743,4 +746,4 @@ to {
     overflow:
     hidden;
     }
-#listframe{width: 1000px; height: 4690px;margin: 0 auto;display: block; overflow: hidden;}
+#listframe{width: 1000px;height: 4730px;margin: 0 auto;display: block;overflow: hidden;}

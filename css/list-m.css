@@ -28,12 +28,16 @@
 
 .nfts_con{width: 968px; margin:0 auto ;clear: both; padding-bottom:20px;}
 .nfts_con  span {
+    border-radius: 50px;
     display: block;
-    margin-top: 10px;
+    margin-top: 37px;
     margin-bottom: 15px;
-    font-size: 1.4em;
+    font-size: 65px;
+    letter-spacing: 3px;
+    height: 43px;
+    line-height: 45px;
 }
-.nfts_con .n_unit { display:block;width: 100%;overflow: hidden;/* height: 275px; */margin-right: 5px;}
+.nfts_con .n_unit { display:block;width: 90%;overflow: hidden;/* height: 275px; */border: 1px solid #ccc;margin-bottom: 30px;padding: 41px 41px 34px 41px;}
 .nfts_con .n_unit a{
     width: 100%;
     overflow: hidden;
@@ -44,10 +48,6 @@
 
 .nfts_con a:hover{ text-decoration:none;box-shadow: 0 0 10px #ccc ;}
 .nfts_con a img{ width:100%; height:100%;}
-.nfts_con a:hover img{-webkit-transition: all 280ms ease-in-out;
-    transition: all 280ms ease-in-out; height: 300px; width:300px;
-    margin-left: -105px;
-    margin-top: -42px; }
 
 .nfts_con .n_unit a u {
     display: block;
@@ -60,10 +60,7 @@
     text-align: right;
     right: 19px;
 }
-.nfts_con .n_unit a:hover u { transition: all 280ms ease-in-out; 
-bottom: 7px;
-    
-}
-.nfts_con a:hover b{}
+
+
 
 
