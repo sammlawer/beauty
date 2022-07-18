@@ -87,45 +87,10 @@
 	
 	 <div id="original"  class="hair_p" >
 	          <button id="restyle" type="button">Restyle Now >></button>
-              <img id="thumbid" src="../thumb/0.png" >
+              <img id="thumbid" src="../thumb/0.gif" >
 	 </div>
 	 
-				 <script type="text/javascript">
-			
-			// 导出图片
-			function CreatImg() {
-			 console.log('test');
-			  html2canvas(document.getElementById('newphoto'), {
-				onrendered: function(canvas) {
-				  // 创建一个canvas
-				  // document.body.appendChild(canvas);
-				  dataUrl=canvas.toDataURL("image/jpeg", 1.0);
-				  DownLoadImg(dataUrl.replace("data:image/jpeg;base64,", ""))
-				},
-			  });
-			}
-			
-			function DownLoadImg(content){
-			 // 格式
-			 var imageType='png';
-			 // 文件名
-			 var fileName=Date.now();
-			 var raw = window.atob(content);
-			 var rawLength = raw.length;
-			 var uInt8Array = new Uint8Array(rawLength);
-			 for(var i = 0; i < rawLength; ++i) {
-				 uInt8Array[i] = raw.charCodeAt(i);
-			 }
-			 var blob = new Blob([uInt8Array], {type:'image/'+imageType}); 
-			 var aLink = document.createElement('a');
-			 var evt = document.createEvent("HTMLEvents");
-			 evt.initEvent("click", true, true);
-			 aLink.download = fileName;
-			 aLink.href = URL.createObjectURL(blob);
-			 aLink.click();
-			}
-			</script>
-	 
+				 
 	 
 	 
 	  <div id="newphoto">
