@@ -292,13 +292,13 @@
     height: 99px;
     width: 428px;
     margin-left: 9px;
-    background: #000;
+    background: #dddddd70;
     position: absolute;
-    border: 1px solid #000;
-    color: #fff; letter-spacing:2px;
+    border: 1px solid #c35555;
+    color: #e73f3f; letter-spacing:2px;
     left: 278px;
-    box-shadow: 0 0 10px #fff;
-    bottom: 179px;
+    box-shadow: 0 0 10px #ff9a9a;
+    bottom: 143px;
     border-radius: 36px;
     font-weight: bold;
     font-size: 38px;
@@ -380,3 +380,18 @@
 }	
 
 .head_r .nft_home{width: 125px;color: #222;border: 1px solid #898989;}
+
+
+.head h2 u{
+    font-size: 15px;
+    text-decoration: none;
+    border: 1px solid #cad3d3;
+    border-radius: 6px;
+    margin-left: 6px;
+    margin-bottom: 16px;
+    padding: 0 3px;
+    position: absolute;
+    height: 17px;
+    color: #456c6e;
+    line-height: 16px;
+}

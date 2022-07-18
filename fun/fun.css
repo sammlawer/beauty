@@ -349,3 +349,18 @@ body{background: linear-gradient(#d7f5ff 30%, #ffffff 100%)  no-repeat;}
     border: 5px solid #000;
     color: #fff; 
     }
+	
+	
+	.head h2 u{
+    font-size: 11px;
+    text-decoration: none;
+    border: 1px solid #cad3d3;
+    border-radius: 6px;
+    margin-left: 20px;
+    margin-bottom: 16px;
+    padding: 0 3px;
+    position: absolute;
+    height: 17px;
+    color: #456c6e;
+    line-height: 16px;
+}
