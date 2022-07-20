@@ -7,28 +7,28 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" type="text/javascript" charset="utf-8"></script>
 
 <script type="text/javascript">
-        //¸ù¾İÉè±¸¼ÓÔØ²»Í¬µÄÑùÊ½
+        //æ ¹æ®è®¾å¤‡åŠ è½½ä¸åŒçš„æ ·å¼
         var setStyle = function(cssArr){
             var i= 0,len = cssArr.length;
             for(i;i<len;i++){
                 document.write('<link href="'+cssArr[i]+'" type="text/css" rel=stylesheet>');
             }
         };
-        // ÅĞ¶ÏÊÇ·ñÒÆ¶¯¶Ë
+        // åˆ¤æ–­æ˜¯å¦ç§»åŠ¨ç«¯
         function goPAGE() {
             if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
-                // window.location.href="ÒÆ¶¯¶Ëurl";
+                // window.location.href="ç§»åŠ¨ç«¯url";
                
-                //ÅĞ¶Ï·ÃÎÊ»·¾³ÊÇ ÒÆ¶¯¶Ë Ôò¼ÓÔØÒÔÏÂÑùÊ½
+                //åˆ¤æ–­è®¿é—®ç¯å¢ƒæ˜¯ ç§»åŠ¨ç«¯ åˆ™åŠ è½½ä»¥ä¸‹æ ·å¼
                 setStyle(['fun-m.css']);
             }
             else {
-                // window.location.href="pc¶Ëurl"; 
+                // window.location.href="pcç«¯url"; 
                
 				setStyle(['fun.css']);
             }
         }
-        goPAGE();        // µ÷ÓÃfunction
+        goPAGE();        // è°ƒç”¨function
 
 </script>
 
@@ -38,14 +38,14 @@
 </script>
 
 	
-</head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
 
 <body>
 
 
        
 		  <div class="head">
-		  		<h2><span>NFT:</span>AI GIRLS 2097<b>#</b><b id="sid">0000</b> <u>Ver.1.37</u></h2>  <!--<h3>CODE:<span id="code">º®Ñ©</span></h3>-->
+		  		<h2><span>NFT:</span>AI GIRLS 2097<b>#</b><b id="sid">0000</b> <u>Ver.1.37</u></h2>  <!--<h3>CODE:<span id="code">å¯’é›ª</span></h3>-->
                 <div class="head_r">
 				
 				<a class="nft_home" href="../index.html" >Home</a>
@@ -53,20 +53,20 @@
 		  </div>
 			<script type="text/javascript">
 				function getUrlParam(name){
-					//ÕıÔò±í´ïÊ½¹ıÂË
+					//æ­£åˆ™è¡¨è¾¾å¼è¿‡æ»¤
 					var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i"); 
-					//ÕıÔò¹æÔò
+					//æ­£åˆ™è§„åˆ™
 					console.log("reg==="+reg);
-					//search£º·µ»ØURLµÄ²éÑ¯²¿·Ö
+					//searchï¼šè¿”å›URLçš„æŸ¥è¯¢éƒ¨åˆ†
 					console.log("location.search==="+location.search);
-					//substr£¨1£©£º´Ó×Ö·û´®µÚÒ»¸öÎ»ÖÃÖĞÌáÈ¡Ò»Ğ©×Ö·û
+					//substrï¼ˆ1ï¼‰ï¼šä»å­—ç¬¦ä¸²ç¬¬ä¸€ä¸ªä½ç½®ä¸­æå–ä¸€äº›å­—ç¬¦
 					console.log("location.search.substr(1)==="+location.search.substr(1));
-					//match£¨£©£ºÔÚ×Ö·û´®ÄÚ¼ìË÷ÓëÕıÔò±í´ïÊ½Æ¥ÅäµÄÖ¸¶¨Öµ£¬·µ»ØÒ»¸öÊı×é¸ør
+					//matchï¼ˆï¼‰ï¼šåœ¨å­—ç¬¦ä¸²å†…æ£€ç´¢ä¸æ­£åˆ™è¡¨è¾¾å¼åŒ¹é…çš„æŒ‡å®šå€¼ï¼Œè¿”å›ä¸€ä¸ªæ•°ç»„ç»™r
 					console.log("window.location.search.substr(1).match(reg)==="+window.location.search.substr(1).match(reg));
 					var r = window.location.search.substr(1).match(reg); 
-					//»ñÈ¡rÊı×éÖĞÏÂ±êÎª2µÄÖµ£»£¨ÏÂ±ê´Ó0¿ªÊ¼£©£¬ÓÃdecodeURI£¨£©½øĞĞ½âÂë
+					//è·å–ræ•°ç»„ä¸­ä¸‹æ ‡ä¸º2çš„å€¼ï¼›ï¼ˆä¸‹æ ‡ä»0å¼€å§‹ï¼‰ï¼Œç”¨decodeURIï¼ˆï¼‰è¿›è¡Œè§£ç 
 					console.log("decodeURI(r[2])==="+decodeURI(r[2]));
-					console.log("-----------------·Ö¸ô·û------------------------");
+					console.log("-----------------åˆ†éš”ç¬¦------------------------");
 					if (r != null) return decodeURI(r[2]); return null; 
 					
 				}
@@ -75,10 +75,10 @@
 					var pid = getUrlParam('pid');
 					var sid = getUrlParam('sid');
 					var code = getUrlParam('code');
-					//¶ÔIDÎªtit_h2µÄ±êÇ©¸³Öµ
+					//å¯¹IDä¸ºtit_h2çš„æ ‡ç­¾èµ‹å€¼
 					$("#sid").html(sid);
 					$("#code").html(code);
-					//idÎªplv_µÄ±êÇ©ÓÃattr() ·½·¨ÖØĞÂÉèÖÃ´ËidµÄÖµ£»ÀıÈç£ºvidÊÇ1ÄÇÃ´¡°plv_+pid¡±¾ÍÊÇplv_1
+					//idä¸ºplv_çš„æ ‡ç­¾ç”¨attr() æ–¹æ³•é‡æ–°è®¾ç½®æ­¤idçš„å€¼ï¼›ä¾‹å¦‚ï¼švidæ˜¯1é‚£ä¹ˆâ€œplv_+pidâ€å°±æ˜¯plv_1
 					
 					$("#plv_").attr("src","face/"+pid+".png");
 					$("#thumbid").attr("src","../thumb/"+pid+".png");
@@ -315,15 +315,15 @@
 							var dataURL = canvas.toDataURL('image/png')
 							// console.info("dataURL", dataURL)
 
-							// ×Ô¶¯ÏÂÔØÍ¼Æ¬
-							// var downloadUrl = dataURL.replace("image/png", "image/octet-stream"); //Í¼Æ¬µØÖ·
-							// window.location.href = downloadUrl; // ÏÂÔØ
+							// è‡ªåŠ¨ä¸‹è½½å›¾ç‰‡
+							// var downloadUrl = dataURL.replace("image/png", "image/octet-stream"); //å›¾ç‰‡åœ°å€
+							// window.location.href = downloadUrl; // ä¸‹è½½
 
-							let a = document.createElement("a"); // Éú³ÉÒ»¸öaÔªËØ
-							let event = new MouseEvent("click"); // ´´½¨Ò»¸öµ¥»÷ÊÂ¼ş
-							a.download = name || "photo"; // ÉèÖÃÍ¼Æ¬Ãû³Æ
-							a.href = dataURL; // ½«Éú³ÉµÄURLÉèÖÃÎªa.hrefÊôĞÔ
-							a.dispatchEvent(event); // ´¥·¢aµÄµ¥»÷ÊÂ¼ş
+							let a = document.createElement("a"); // ç”Ÿæˆä¸€ä¸ªaå…ƒç´ 
+							let event = new MouseEvent("click"); // åˆ›å»ºä¸€ä¸ªå•å‡»äº‹ä»¶
+							a.download = name || "photo"; // è®¾ç½®å›¾ç‰‡åç§°
+							a.href = dataURL; // å°†ç”Ÿæˆçš„URLè®¾ç½®ä¸ºa.hrefå±æ€§
+							a.dispatchEvent(event); // è§¦å‘açš„å•å‡»äº‹ä»¶
 						});
 					})
 					//  ******************************* end *******************************
