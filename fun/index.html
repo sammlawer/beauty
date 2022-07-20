@@ -45,7 +45,7 @@
 
        
 		  <div class="head">
-		  		<h2><span>NFT:</span>AI GIRLS 2097<b>#</b><b id="sid">0000</b> <u>Ver.1.30</u></h2>  <!--<h3>CODE:<span id="code">寒雪</span></h3>-->
+		  		<h2><span>NFT:</span>AI GIRLS 2097<b>#</b><b id="sid">0000</b> <u>Ver.1.37</u></h2>  <!--<h3>CODE:<span id="code">寒雪</span></h3>-->
                 <div class="head_r">
 				
 				<a class="nft_home" href="../index.html" >Home</a>
@@ -289,24 +289,25 @@
 				 <button id="show" type="button">Original Pic:HIDE</button>
 			     <button id="hide" type="button" style="color:#FF0000">Original Pic:SHOW</button>
 				 
-				 
-						<script type="text/javascript">
-						$(document).ready(function(){
-						  $("#restyle").click(function(){
-						  $("#original").hide();
-						  $("#hide").hide();
-						  $("#show").show();
-						  });
-						  $("#hide").click(function(){
-						  $("#original").hide();
-						  $("#hide").hide();
-						  $("#show").show();
-						  });
-						  $("#show").click(function(){
-						  $("#original").show();
-						  $("#show").hide();
-						  $("#hide").show();
-	
+			<script type="text/javascript">
+				$(document).ready(function () {
+					$("#restyle").click(function () {
+						$("#original").hide();
+						$("#hide").hide();
+						$("#show").show();
+					});
+					$("#hide").click(function () {
+						$("#original").hide();
+						$("#hide").hide();
+						$("#show").show();
+					});
+					$("#show").click(function () {
+						$("#original").show();
+						$("#show").hide();
+						$("#hide").show();
+					});
+
+					//  ******************************* start *******************************
 					$('#createImage').on('click', function () {
 						html2canvas(document.querySelector("#newphoto")).then(canvas => {
 							console.info("canvas", canvas)
@@ -320,17 +321,17 @@
 
 							let a = document.createElement("a"); // 生成一个a元素
 							let event = new MouseEvent("click"); // 创建一个单击事件
-							a.download = name || "aigirls2097"; // 设置图片名称
+							a.download = name || "photo"; // 设置图片名称
 							a.href = dataURL; // 将生成的URL设置为a.href属性
 							a.dispatchEvent(event); // 触发a的单击事件
 						});
 					})
-					
-						});
-						
-						
-						
-						</script>
+					//  ******************************* end *******************************
+				});
+
+
+
+			</script>
 				 
             </div>
 		
@@ -605,12 +606,10 @@
 			
 		 </div>	
         </div>
-		<!-- 新增 ******************************* start ******************************* -->
 		<div class="creatimg">
 				<button id="createImage">Downlod</button>
 		</div>			
 					
-				<!-- 新增 ******************************* end ******************************* -->
     </div>
 	        
 </body>
