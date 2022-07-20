@@ -307,8 +307,7 @@
 						  $("#original").show();
 						  $("#show").hide();
 						  $("#hide").show();
-						  });
-	// 新增 ******************************* start *******************************
+	
 					$('#createImage').on('click', function () {
 						html2canvas(document.querySelector("#newphoto")).then(canvas => {
 							console.info("canvas", canvas)
@@ -327,7 +326,6 @@
 							a.dispatchEvent(event); // 触发a的单击事件
 						});
 					})
-					// 新增 ******************************* end *******************************
 					
 						});
 						
