@@ -414,3 +414,22 @@
 .creatimg button{cursor: pointer;height: 54px;width: 252px;margin-left: 7px;background: #db0606;position: absolute;border: 1px solid #f12c2c;color: #ffffff;letter-spacing: 2px;font-weight: bold;left: 1px;border-radius: 14px;top: 9px;font-size: 33px;}
 
 #newphoto{width: 100%;height: 978px;}
+
+#toasts{
+    position: fixed;
+    right: 34px;
+    top: 976px;
+    border: 1px solid #92ff2e;
+    margin-top: 10px;
+    background-color: #4b9911;
+    transition: 1s;
+    border-radius: 18px;
+    padding: 10px 30px;
+    width: 204px;
+    z-index: 99999999999999;
+    height: 36px;
+    line-height: 36px;
+    color: #fff;
+    font-size: 31px;
+    font-weight: bold;
+}
