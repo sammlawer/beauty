@@ -11,7 +11,7 @@ body{background: linear-gradient(#d7f5ff 30%, #ffffff 100%)  no-repeat;}
             text-align: center;
             margin: 6px auto;
             border: 1px solid #ccc;
-            background-color: #000000;
+            background-color: #000000; overflow:hidden;
         }
 		
 		
