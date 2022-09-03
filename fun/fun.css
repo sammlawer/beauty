@@ -45,7 +45,7 @@ body{background: linear-gradient(#d7f5ff 30%, #ffffff 100%)  no-repeat;}
             -webkit-overflow-scrolling: touch;
         }
 		
-		
+		#nftcloth  #disappear{ display:none;}
 		.b_h1{
     background: #373737;
     height: 30px;
