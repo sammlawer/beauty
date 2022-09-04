@@ -49,7 +49,7 @@
                 <div class="head_r">
 				
 				<a class="nft_home" href="../index.html" >Home</a>
-				<a id="nft_sch" target="_blank" href="https://opensea.io/collection/aigirls2097">Get the Ownership</a></div> 
+				<a id="nft_sch" target="_blank" href="https://opensea.io/collection/aigirls2097">Buy this NFT</a></div> 
 		  </div>
 			<script type="text/javascript">
 				function getUrlParam(name){
@@ -93,7 +93,9 @@
 
 	
 	 <div id="original"  class="hair_p" >
-	          <button id="restyle" type="button">Restyle Now >></button>
+	          <div id="restylebox" style="display:none">
+			  <button id="restyle" type="button" >Restyle Now >></button>
+			  </div>
               <img id="thumbid" src="../thumb/0.gif" >
 	 </div>
 	 
@@ -325,6 +327,9 @@
 						
 						document.getElementById('toasts').style.display='';   //显示弹窗
                         setTimeout("document.getElementById('toasts').style.display='none'",10000); 
+						
+					
+						
 
 					})
 					//  ******************************* end *******************************
@@ -338,7 +343,10 @@
 
 			</script>
 				 
-
+            <script type="text/javascript">
+			document.getElementById('restylebox').style.display='none';   //显示弹窗
+                        setTimeout("document.getElementById('restylebox').style.display='block'",5000); 
+			</script>
 				 
 				 
 				 
@@ -612,7 +620,7 @@
 		 </div>	
         </div>
 		<div class="creatimg">
-				<button id="createImage">Downlod</button>
+				<button id="createImage">Downlod Pic</button>
 		</div>
 					
 	
