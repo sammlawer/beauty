@@ -93,9 +93,6 @@
 
 	
 	 <div id="original"  class="hair_p" >
-	          <div id="restylebox" style="display:none">
-			  <button id="restyle" type="button" >Restyle Now >></button>
-			  </div>
               <img id="thumbid" src="../thumb/0.gif" >
 	 </div>
 	 
@@ -285,16 +282,13 @@
 	
 		 
 		<div class="original_btn">
-				 <button id="show" type="button">Original Pic:HIDE</button>
-			     <button id="hide" type="button" style="color:#FF0000">Original Pic:SHOW</button>
+				 <button id="show" type="button" style="display: none; background: rgb(0, 0, 0); font-size: 26px; border: 1px solid rgb(204, 204, 204); font-weight: normal;">Show Original Pic</button>
+				 <button id="hide" type="button" style="color: rgb(255, 255, 255); display: block;">Restyel Now</button>
+			     
 				 
 			<script type="text/javascript">
 				$(document).ready(function () {
-					$("#restyle").click(function () {
-						$("#original").hide();
-						$("#hide").hide();
-						$("#show").show();
-					});
+					
 					$("#hide").click(function () {
 						$("#original").hide();
 						$("#hide").hide();
@@ -342,11 +336,7 @@
 
 
 			</script>
-				 
-            <script type="text/javascript">
-			document.getElementById('restylebox').style.display='none';   //显示弹窗
-                        setTimeout("document.getElementById('restylebox').style.display='block'",15000); 
-			</script>
+
 				 
 				 
 				 

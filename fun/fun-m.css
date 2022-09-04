@@ -2,14 +2,14 @@
         body{
     position: relative;
     height: 100%;
-    width: 1000px;
+    width: 100%;
     overflow: hidden;
     zoom: 100%;
 }
 .frame {
             position: relative;
-            width: 1000px;
-            height: 1000px;
+            width: 100%;
+            height: 980px;
             background-repeat:
             no-repeat;
             text-align: center;
@@ -19,8 +19,8 @@
 		
 		
 		 .frame .hair_p {
-            width: 1000px;
-            height: 1000px;
+            width: 100%;
+            height: 980px;
             /*隐藏溢出*/
             position: fixed;
             overflow: hidden;
@@ -29,7 +29,7 @@
             left: 0px;
             transition: all 100ms ease-in-out;
         }
-		.frame .hair_p img{transition: all 600ms ease-in-out;width: 1000px;height: 1000px;}
+		.frame .hair_p img{transition: all 600ms ease-in-out;width: 100%;height: auto;}
 		
         .hair_b {
             position: fixed;
@@ -80,7 +80,7 @@
             margin-left: 9px;
             text-decoration: none;
             color: #636060;
-            background: #fff;
+            background: #fcfcfc;
             font-size: 31px;
             width: 136px;
             line-height: 96px;
@@ -219,7 +219,7 @@
     position: fixed;
     z-index: 9999;
     background: #000000;
-    top: 1000px;
+    top: 980px;
     /* border-top: 3px solid #000; */
     width: 1000px;
 }
@@ -230,7 +230,7 @@
     padding-left: 22px;
     font-size: 28px;
     color: #fff;
-    line-height: 53px;
+    line-height: 62px;
     font-weight: normal;
 }
 .head h2 b{}
@@ -245,16 +245,16 @@
     padding-right: 15px;
     font-size: 19px;
     position: absolute;
-    bottom: -56px;
-    right: 224px;
+    bottom: -66px;
+    right: 249px;
 }
 .head_r a{
     display: inline-block;
     height: 50px;
-    width: 219px;
+    width: 203px;
     background: #ffffff14;
     line-height: 53px;
-    font-size: 29px;
+    font-size: 26px;
     text-decoration: none;
     text-align: center;
     margin-top: 2px;
@@ -262,14 +262,14 @@
     border: 1px solid #ffffff;
     font-weight: bold;
     color: #ffe927;
-    margin-right: 46px;
+    margin-right: 35px;
     -moz-animation: title 2.4s linear infinite;
     -webkit-animation: title 2.4s linear infinite;
     animation: title 2.4s linear infinite;
 }
 .head_r a:hover{}
 
-.original_btn{position: fixed;height: 74px;line-height: 35px;text-align: left;top: 1048px;background: #000000;z-index: 999;border-top: 3px solid #010101;width: 100%;}
+.original_btn{position: fixed;height: 74px;line-height: 35px;text-align: left;top: 1040px;background: #000000;z-index: 999;border-top: 3px solid #010101;width: 100%;}
 .original_btn b{}
 .original_btn button{
     cursor:
@@ -277,15 +277,15 @@
     height: 54px;
     width: 311px;
     margin-left: 21px;
-    background: #303030;
+    background: #ba0b0b;
     position: absolute;
-    border: 1px solid #b8adad;
+    border: 1px solid #990f0f;
     color: #ffffff; letter-spacing:2px;
     border-radius: 17px;
     font-weight: bold;
     left: -9px;
     top: 11px;
-    font-size: 24px;
+    font-size: 33px;
 }
 .original_btn button:hover{   border: 1px solid #f5fdff;background: #b70256; color:#fff; }
 .original_btn b{}
@@ -403,29 +403,29 @@
 
 .creatimg{
     position: fixed;
-    height: 52px;
+    height: 49px;
     line-height: 35px;
     text-align: left;
     width: 273px;
-    top: 1044px;
+    top: 1035px;
     right: 11px;
     z-index: 99013;
     }
-.creatimg button{cursor: pointer;height: 54px;width: 258px;margin-left: 7px;background: #db0606;position: absolute;border: 1px solid #f12c2c;color: #ffffff;letter-spacing: 2px;font-weight: bold;left: 5px;border-radius: 10px;top: 20px;font-size: 30px;}
+.creatimg button{cursor: pointer;height: 54px;width: 239px;margin-left: 20px;background: #19aa28;position: absolute;border: 1px solid #9dff8d;color: #ffffff;letter-spacing: 0px;font-weight: bold;left: 5px;border-radius: 10px;top: 20px;font-size: 30px;}
 
-#newphoto{width: 1000px;height: 1000px;}
+#newphoto{width: 100%;height: 980px;}
 
 #toasts{
     position: fixed;
-    right: 12px;
-    top: 1053px;
+    right: 20px;
+    top: 1043px;
     border: 1px solid #92ff2e;
     margin-top: 10px;
-    background-color: #4b9911;
+    background-color: #24d584;
     transition: 1s;
     border-radius: 10px;
     padding: 10px 30px;
-    width: 198px;
+    width: 178px;
     z-index: 99999999999999;
     height: 34px;
     line-height: 30px;
