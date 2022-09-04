@@ -35,7 +35,7 @@
             position: fixed;
             /*字体的位置*/
             right: 1px;
-            top: 1111px;
+            top: 1117px;
             background: #000000;
             height: calc(100% - 994px);
             width: 98%;
@@ -218,7 +218,7 @@
     height: 43px;
     position: fixed;
     z-index: 9999;
-    background: #5c5c5c;
+    background: #000000;
     top: 1000px;
     /* border-top: 3px solid #000; */
     width: 1000px;
@@ -252,25 +252,24 @@
     display: inline-block;
     height: 50px;
     width: 219px;
-    background: #ffffff;
+    background: #ffffff14;
     line-height: 53px;
     font-size: 29px;
     text-decoration: none;
     text-align: center;
-    margin-top: 7px;
+    margin-top: 2px;
     border-radius: 10px;
-    border: 1px solid #b80b0b;
+    border: 1px solid #ffffff;
     font-weight: bold;
-    color: #e50000;
+    color: #ffe927;
     margin-right: 46px;
     -moz-animation: title 2.4s linear infinite;
     -webkit-animation: title 2.4s linear infinite;
     animation: title 2.4s linear infinite;
-    text-shadow: 0 0 6px #fff;
 }
 .head_r a:hover{}
 
-.original_btn{position: fixed;height: 74px;line-height: 35px;text-align: left;top: 1048px;background: #424245;z-index: 999;border-top: 3px solid #010101;width: 100%;}
+.original_btn{position: fixed;height: 74px;line-height: 35px;text-align: left;top: 1048px;background: #000000;z-index: 999;border-top: 3px solid #010101;width: 100%;}
 .original_btn b{}
 .original_btn button{
     cursor:
@@ -285,7 +284,7 @@
     border-radius: 17px;
     font-weight: bold;
     left: -9px;
-    top: 16px;
+    top: 11px;
     font-size: 24px;
 }
 .original_btn button:hover{   border: 1px solid #f5fdff;background: #b70256; color:#fff; }
@@ -412,23 +411,23 @@
     right: 11px;
     z-index: 99013;
     }
-.creatimg button{cursor: pointer;height: 49px;width: 258px;margin-left: 7px;background: #db0606;position: absolute;border: 1px solid #f12c2c;color: #ffffff;letter-spacing: 2px;font-weight: bold;left: 5px;border-radius: 10px;top: 27px;font-size: 30px;}
+.creatimg button{cursor: pointer;height: 54px;width: 258px;margin-left: 7px;background: #db0606;position: absolute;border: 1px solid #f12c2c;color: #ffffff;letter-spacing: 2px;font-weight: bold;left: 5px;border-radius: 10px;top: 20px;font-size: 30px;}
 
 #newphoto{width: 1000px;height: 1000px;}
 
 #toasts{
     position: fixed;
     right: 12px;
-    top: 1058px;
+    top: 1053px;
     border: 1px solid #92ff2e;
     margin-top: 10px;
     background-color: #4b9911;
     transition: 1s;
-    border-radius: 18px;
+    border-radius: 10px;
     padding: 10px 30px;
     width: 198px;
     z-index: 99999999999999;
-    height: 32px;
+    height: 34px;
     line-height: 30px;
     color: #fff;
     font-size: 31px;
