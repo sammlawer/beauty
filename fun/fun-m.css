@@ -4,6 +4,7 @@
     height: 100%;
     width: 1000px;
     overflow: hidden;
+    zoom: 100%;
 }
 .frame {
             position: relative;
@@ -251,9 +252,9 @@
     display: inline-block;
     height: 50px;
     width: 219px;
-    background: #dbdbdb;
-    line-height: 45px;
-    font-size: 31px;
+    background: #ffffff;
+    line-height: 53px;
+    font-size: 29px;
     text-decoration: none;
     text-align: center;
     margin-top: 7px;
@@ -411,7 +412,7 @@
     right: 11px;
     z-index: 99013;
     }
-.creatimg button{cursor: pointer;height: 49px;width: 258px;margin-left: 7px;background: #db0606;position: absolute;border: 1px solid #f12c2c;color: #ffffff;letter-spacing: 2px;font-weight: bold;left: 5px;border-radius: 14px;top: 27px;font-size: 33px;}
+.creatimg button{cursor: pointer;height: 49px;width: 258px;margin-left: 7px;background: #db0606;position: absolute;border: 1px solid #f12c2c;color: #ffffff;letter-spacing: 2px;font-weight: bold;left: 5px;border-radius: 10px;top: 27px;font-size: 30px;}
 
 #newphoto{width: 1000px;height: 1000px;}
 
