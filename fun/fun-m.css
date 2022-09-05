@@ -290,7 +290,15 @@
 .original_btn button:hover{   border: 1px solid #f5fdff;background: #b70256; color:#fff; }
 .original_btn b{}
 
+
+.original_btn #show{display: none; background: rgb(0, 0, 0); font-size: 26px; border: 1px solid rgb(204, 204, 204); font-weight: normal;}
+
+.original_btn #hide{color: rgb(255, 255, 255); display: block;}
+
 #original{position:relative; z-index:9999;top: 0px;}
+
+
+
 #restyle{
     cursor:
     pointer;
