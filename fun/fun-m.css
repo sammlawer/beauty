@@ -101,8 +101,8 @@
 
 #glasses a{width: 193px;height: 100px;background: #fff;}
 #nftbg a{
-    width: 95px;
-    height: 95px;
+    width: 100px;
+    height: 100px;
     padding: 0;
     margin-left: 7px;
     }
@@ -191,6 +191,11 @@
 }
 .content_in{
     width: 2502px;
+    background: none;
+}
+
+#nftbg .content_in{
+    width: 1010px;
     background: none;
 }
 
